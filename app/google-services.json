@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1019605472138",
+    "firebase_url": "https://skysevents-110785.firebaseio.com",
+    "project_id": "skysevents-110785",
+    "storage_bucket": "skysevents-110785.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019605472138:android:17fc211268778312",
+        "android_client_info": {
+          "package_name": "com.cheda.skysevents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019605472138-9bu26prkej955upnlbrrh1hn4hrirdk5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cheda.skysevents",
+            "certificate_hash": "730b563204385a34543c3de9a86b1ce29ab134b0"
+          }
+        },
+        {
+          "client_id": "1019605472138-b319gjgup72tsbp3ccsfgja3cece5sll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cheda.skysevents",
+            "certificate_hash": "94a2f4e00db5d4fced23146e379374412f408072"
+          }
+        },
+        {
+          "client_id": "1019605472138-p09joh3vh5j3kcddmdtm3s530gnuqrcl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsY85i_Ml-i_8dPjv58ieI7JRuNe7PYDA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019605472138-p09joh3vh5j3kcddmdtm3s530gnuqrcl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

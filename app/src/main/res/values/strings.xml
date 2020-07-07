@@ -1,0 +1,369 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">SkysEvents</string>
+
+    <string name="menu_night_mode">Night mode</string>
+    <string name="menu_night_mode_system">Follow system</string>
+    <string name="menu_night_mode_day">Day (always)</string>
+    <string name="menu_night_mode_night">Night (always)</string>
+    <string name="menu_night_mode_auto">Auto</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Up_Coming_fragment">Hello Up Coming fragment</string>
+    <string name="Popular_fragment">Hello Popular fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_skysevent_detail">SkysEvent Detail</string>
+
+    <string name="action_search">Search</string>
+    <string name="action_share">Share</string>
+    <string name="action_bookmark">remember</string>
+    <string name="send_to">Send Share</string>
+    <string name="action_Invite">Tell a Friend</string>
+    <string name="action_account">Account</string>
+    <string name="action_About">About</string>
+    <string name="action_settings">Settings</string>
+    <string name="copyright017">© Copyright 2017 SKY-EVENTS. All Rights Reserved</string>
+
+    <string name="invite">Send invitations!</string>
+    <string name="welcome">Invites</string>
+    <string name="referrer_hint">Deep link not provided</string>
+    <string name="deep_link_default">Deep link not set</string>
+    <string name="invitation_id_default">Invitation ID not set</string>
+    <string name="invite_friends">Invite Friends</string>
+
+    <string name="invitation_title">Send SkysEvents App Invitation</string>
+    <string name="invitation_message">This app is terrific, give it a try its Free!</string>
+    <string name="invitation_deep_link">http://example.com/offer/five_dollar_offer</string>
+
+    <string name="invitation_custom_image">http://10.0.0.6/cheda/Images/sky_logo.png</string>
+    <!--<string name="invitation_custom_image">https://developers.google.com/identity/images/g-logo.png</string>-->
+    <string name="invitation_cta">Install!</string>
+
+    <string name="deep_link_fmt" formatted="false">Deep Link: %s</string>
+
+    <string name="send_failed">Sending invitations was Cancelled</string>
+    <string name="invite_dialog_title">You got an invitation!</string>
+
+    <string name="google_play_services_error">Google Play Services Error</string>
+
+
+
+    <string name="transition_image">logo_shared</string>
+    <string name="transition_name">name_shared</string>
+    <string name="transition_date">date_shared</string>
+    <string name="transition_fee">fee_shared</string>
+    <string name="transition_venue">venue_shared</string>
+    <string name="logout">Log Out</string>
+    <string name="dialog_no_favorites_set">You have not yet chosen any favorite Events.  Press the heart when you
+                                            like the Events and want to save it to your favorites list.</string>
+    <string name="favorites">Favorites</string>
+    <string name="add_favr">Added to Favorites</string>
+    <string name="SkyEvents">Skys Events</string>
+    <string name="SkyEventslink">http://motifsdigital.co.za/skysevents.apk</string>
+    <string name="remove_favr">Removed from Favorites</string>
+    <string name="no_favorites_items">No Favorites</string>
+    <string name="no_favorites_msg">Press on item Heart to add to favorites.</string>
+    <string name="favorites_remove_msg">Long press on item to remove from favorites.</string>
+
+    <string name="cheese_ipsum">Jarlsberg lancashire edam. Dolcelatte hard cheese brie st. agur blue
+    cheese caerphilly bavarian bergkase cheese and biscuits mascarpone. Cheeseburger swiss bavarian
+    bergkase cream cheese fromage frais cheesy feet port-salut airedale. St. agur blue cheese rubber
+    cheese caerphilly cheddar cheesecake cream cheese manchego lancashire. Roquefort squirty cheese
+    the big cheese.</string>
+
+    <string name="hello_world">Hello John</string>
+    <string name="listitem_textview_default_activity_title">Activity Title</string>
+    <string name="listitem_textview_activity_class_name">Activity Class Name</string>
+    <string name="title_activity_sample_inflate_view_from_xml">Inflate a View from the XML file</string>
+    <string name="title_activity_sample_create_view_in_java_code">Create a View in the Java code</string>
+    <string name="error_dialog_title">Error</string>
+    <string name="error_dialog_activity_not_found_message">Activity Not Found: %s</string>
+    <string name="title_activity_my_first">MyFirstActivity</string>
+    <string name="title_activity_text_view_example">TextViewExampleActivity</string>
+    <string name="title_activity_edit_text_example">EditTextExampleActivity</string>
+    <string name="title_activity_image_view_example">ImageViewExampleActivity</string>
+    <string name="title_activity_button">ButtonActivity</string>
+    <string name="title_activity_button_example">ButtonExampleActivity</string>
+    <string name="title_activity_check_box_example">CheckBoxExampleActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_linear_layout_example">LinearLayoutExampleActivity</string>
+    <string name="title_activity_relative_layout_example">RelativeLayoutExampleActivity</string>
+    <string name="title_activity_frame_layout_example">FrameLayoutExampleActivity</string>
+    <string name="title_activity_options_menu_example">OptionsMenuExampleActivity</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_radio_button_example">RadioButtonExampleActivity</string>
+    <string name="title_activity_switch_example">SwitchExampleActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_user_list">UserListActivity</string>
+    <string name="empty_movie_list">Looking for Events...Check Data Connection</string>
+    <string name="empty_list">No Event Information Available</string>
+    <string name="empty_list_no_network">No information available. The network is not available to fetch Events  data</string>
+    <string name="dialog_no_favorites_ok">OK</string>
+    <string name="websitelink">www.skysevents.com</string>
+    <string name="copyright_st">Copyright ©  2017 Skys Events. All rights Reserved.</string>
+    <string name="app_version">Version 0.1.0</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_near_me">Map</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">Cheda Flame</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_login_register">Sign in</string>
+    <string name="facebook_app_id">444346402601622</string>
+    <string name="fb_login_protocol_scheme">fb444346402601622</string>
+
+
+    <!-- Auth method picker -->
+    <string name="sign_in_with_google" translation_description="Sign in button text">Sign in with Google</string>
+    <string name="sign_in_with_facebook" translation_description="Sign in button text">Sign in with Facebook</string>
+    <string name="sign_up_login" translation_description="Sign in button text">Sign in with Phone / Email</string>
+    <string name="sign_in_with_email" translation_description="Sign in button text">Sign in with email</string>
+    <string name="sign_in_with_phone" translation_description="Sign in button text">Sign in with phone</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."
+    </string>
+
+    <!-- Email common-->
+    <string name="next_default" translation_description="Button text to continue">Next</string>
+    <string name="email_hint" translation_description="Hint in email input field">Email</string>
+    <string name="phone_hint" translation_description="Hint for phone input field">Phone Number</string>
+    <string name="password_hint" translation_description="Hint for password input field">Password</string>
+    <string name="required_field" translation_description="Inline error for required field">You can\'t leave this empty.</string>
+    <string name="invalid_email_address" translation_description="Inline error for invalid email address">That email address isn\'t correct</string>
+    <string name="missing_email_address" translation_description="Inline error for empty email address in input field">Enter your email address to continue</string>
+    <string name="progress_dialog_checking_accounts" translation_description="Progress dialog text while checking for existing accounts">Checking for existing accounts…</string>
+
+    <!-- phone number auth -->
+    <string name="verify_phone_number_title" translation_description="Phone number entry form title">Enter your phone number</string>
+    <string name="invalid_phone_number" translation_description="Inline error when phone number entered is invalid">Enter a valid phone number</string>
+    <string name="enter_confirmation_code" translation_description="Phone number verification code entry form title">Enter the 6-digit code we sent to</string>
+    <string name="resend_code_in" translation_description="Countdown timer text that the user needs to wait for before attempting to resend verification sms">Resend code in 0:%02d</string>
+    <string name="verify_your_phone_title" translation_description="Button text to complete phone number verification">Verify your phone number</string>
+    <string name="verifying" translation_description="Progress dialog text while phone number is being verified">Verifying …</string>
+    <string name="retrieving_sms" translation_description="Progress dialog text when sms is being retrieved before auto-submit">Retrieving sms…</string>
+    <string name="incorrect_code_dialog_body" translation_description="Inline error when incorrect sms verification code is being used to verify">Wrong code. Try again.</string>
+    <string name="incorrect_code_dialog_positive_button_text" translation_description="Text to dismiss error alert dialog">OK</string>
+    <string name="error_too_many_attempts" translation_description="Error message when the phone number has been used too many times">This phone number has been used too many times</string>
+    <string name="error_quota_exceeded" translation_description="Error message when the Firebase project's quota has been exceeded.">There was a problem verifying your phone number</string>
+    <string name="error_session_expired" translation_description="Error message when SMS confirmation code has expired.">This code is no longer valid</string>
+    <string name="sign_in_with_phone_number" translation_description="Label for phone number input form">Sign in with phone number</string>
+    <string name="done" translation_description="Progress dialog success transition once sms is sent">Done</string>
+    <string name="verified" translation_description="Progress dialog success transition when phone number was verified">Verified!</string>
+    <string name="code_sent" translation_description="Progress dialog success transition once sms is sent">Code sent!</string>
+    <string name="resending" translation_description="Progress dialog text when user clicks on resend sms">Resending…</string>
+    <string name="resend_code" translation_description="Link text to resend verification sms">Resend Code</string>
+    <string name="verify_phone_number" translation_description="Button text to submit confirmation code and complete phone verification">Verify Phone Number</string>
+    <string name="continue_phone_login" translation_description="Button text to submit phone number and send sms">Continue</string>
+    <string name="sms_terms_of_service" translation_description="Fine print warning displayed below Verify Phone Number button">By tapping &#8220;%1$s&#8220;, an SMS may be sent. Message &amp; data rates may apply.</string>
+
+    <!-- Common -->
+    <string name="default_toolbar_title" translatable="false">@string/app_name</string>
+    <string name="progress_dialog_loading" translation_description="Loading text in dialog">Loading…</string>
+    <string name="sign_in_default" translation_description="Button text to sign in">Sign in</string>
+    <string name="general_error" translation_description="Toast text flashing general error">An error has occurred.</string>
+
+    <!-- Provider -->
+    <string name="idp_name_google">Google</string>
+    <string name="idp_name_facebook">Facebook</string>
+    <string name="idp_name_twitter">Twitter</string>
+    <string name="provider_name_email">Email</string>
+    <string name="provider_name_phone">Phone</string>
+
+    <!-- Email sign up -->
+    <string name="title_register_email" translation_description="Title for signup form">Sign up</string>
+    <string name="name_hint" translation_description="Hint for last name input field">First &amp; last name</string>
+    <string name="button_text_save" translation_description="Button text to save input form">Save</string>
+    <string name="progress_dialog_signing_up" translation_description="Dialog text while waiting for server's signup response">Signing up…</string>
+    <plurals name="error_weak_password" translation_description="Inline error for weak password">
+        <item quantity="one" translation_description="Inline error for weak password">Password not strong enough. Use at least %1$d character and a mix of letters and numbers</item>
+        <item quantity="other" translation_description="Inline error for weak password">Password not strong enough. Use at least %1$d characters and a mix of letters and numbers</item>
+    </plurals>
+    <string name="email_account_creation_error" translation_description="Inline error for signup failure">Email account registration unsuccessful</string>
+    <string name="error_user_collision" translation_description="Inline error when user signs up using an existing email account">An account already exists with that email address.</string>
+    <string-array name="create_account_preamble" formatted="false" translation_description="Terms of service preamble">
+        <item>By tapping %BTN% you are indicating that you agree to the %TOS% and the %PP%.</item>
+        <item>By tapping %BTN% you are indicating that you agree to the %TOS%.</item>
+        <item>By tapping %BTN% you are indicating that you agree to the %PP%.</item>
+    </string-array>
+    <string name="terms_of_service" translation_description="Link text to web url containing the app's terms of service">Terms of Service</string>
+    <string name="privacy_policy" translation_description="Link text to web url containing the app's privacy policy">Privacy Policy</string>
+
+    <!-- Idp/Email welcome back -->
+    <string name="title_welcome_back_idp_prompt" translatable="false">@string/sign_in_default</string>
+    <string name="title_welcome_back_password_prompt" translatable="false">@string/sign_in_default</string>
+    <string name="welcome_back_idp_header" translation_description="Inline subtitle to users whose signup was interrupted since an existing account was detected">You already have an account</string>
+    <string name="welcome_back_email_header" translation_description="Message for returning users">Welcome back!</string>
+    <string name="welcome_back_idp_prompt" translation_description="Message to users that need to signin using existing IDP accounts">
+        You\'ve already used <xliff:g example="jane.doe@example.com" id="email_addr" translation_description="">%1$s</xliff:g>.
+        Sign in with <xliff:g example="Google" id="provider_name" translation_description="">%2$s</xliff:g> to continue.
+    </string>
+    <string name="welcome_back_password_prompt_body" translation_description="Message to users that need to signin using existing email accounts">
+        You\'ve already used <xliff:g example="jane.doe@example.com" id="email_addr" translation_description="">%1$s</xliff:g>
+        to sign in. Enter your password for that account.
+    </string>
+    <string name="progress_dialog_signing_in" translation_description="Progress dialog text">Signing in…</string>
+    <string name="trouble_signing_in" translation_description="Link leading to forgot password flow">Trouble signing in?</string>
+
+    <!-- Password recovery -->
+    <string name="title_recover_password_activity" translation_description="Recover password screen title">Recover password</string>
+    <string name="title_confirm_recover_password" translation_description="Password recovery confirmation message">Check your email</string>
+    <string name="password_recovery_body" translation_description="Password recovery message body">Get instructions sent to this email that explain how to
+        reset your password.</string>
+    <string name="button_text_send" translation_description="Button text to send recovery email">Send</string>
+    <string name="confirm_recovery_body" translation_description="Alert dialog displayed after password recovery email is sent">Follow the instructions sent to %1$s to recover your password.</string>
+    <string name="progress_dialog_sending" translation_description="Progress dialog while password recovery email is being sent">Sending…</string>
+    <string name="error_email_does_not_exist" translation_description="Inline error when user attempt signin with invalid account">That email address doesn\'t match an existing account</string>
+
+    <!-- accessibility -->
+    <string name="accessibility_logo" translation_description="Content description for app logo">App logo</string>
+    <string name="signed_in_with_specific_account" translation_description="Post signin message showing method of authentication">Signed in as <xliff:g example="jane.doe@example.com" id="email_addr" translation_description="">%1$s</xliff:g></string>
+    <string name="sms_terms">Note: Using phone sign-in, you will receive an SMS message with a verification code and standard rates apply.</string>
+
+    <!-- strings for Auth UI demo activities -->
+    <eat-comment />
+    <string name="launch_title">Welcome..</string>
+    <string name="sign_in">Start</string>
+    <string name="green_theme">Green Theme</string>
+    <string name="purple_theme">Purple Theme</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="use_theme_header">Use theme:</string>
+    <string name="logo_header">Logo:</string>
+    <string name="firebase_logo_label">Firebase Auth</string>
+    <string name="google_logo_label">Google</string>
+    <string name="no_logo_label">None</string>
+    <string name="auth_providers_header">Select Login Provider.:</string>
+    <string name="email_label">Email</string>
+    <string name="phone_label">Phone</string>
+    <string name="facebook_label">Facebook</string>
+    <string name="facebook_label_missing_config">Facebook - configuration missing</string>
+    <string name="twitter_label">Twitter</string>
+    <string name="twitter_label_missing_config">Twitter - configuration missing</string>
+    <string name="google_label">Google</string>
+    <string name="google_label_missing_config">Google - configuration missing</string>
+    <string name="google_tos_label">Google TOS</string>
+    <string name="firebase_tos_label">Firebase TOS</string>
+    <string name="google_privacy_label">Google Privacy Policy</string>
+    <string name="firebase_privacy_label">Firebase Privacy Policy</string>
+    <string name="tos_header">Terms of Service URL:</string>
+    <string name="privacy_policy_header">Privacy Policy URL:</string>
+    <string name="unknown_response">Unexpected onActivityResult response code</string>
+    <string name="unknown_sign_in_response">Unknown response from AuthUI sign-in</string>
+    <string name="sign_in_cancelled">Sign in cancelled</string>
+    <string name="no_internet_connection">Check internet connection</string>
+    <string name="signed_in_header">You are signed in!</string>
+    <string name="sign_out">Sign out</string>
+    <string name="delete_account_label">Delete account</string>
+    <string name="sign_out_failed">Sign out failed</string>
+    <string name="delete_account_failed">Delete account failed</string>
+    <string name="user_profile_header">User profile:</string>
+    <string name="profile_picture_content_desc">Profile picture</string>
+    <string name="default_theme">Default theme</string>
+    <string name="configuration_required">Configuration is required - see README.md</string>
+    <string name="other_options_header">Other Options:</string>
+    <string name="rational_image_perm">This sample will read an image from local storage to upload to Cloud Storage.</string>
+    <string name="anonymous_auth_failed_msg">Anonymous authentication failed, various components of the demo will not work. Make sure your device is online and that Anonymous Auth is configured in your Firebase project(https://console.firebase.google.com/project/_/authentication/providers)</string>
+    <string name="extra_google_scopes">Example extra Google scopes</string>
+    <string name="drive_file_scope">Drive File</string>
+    <string name="youtube_data_scope">Youtube data</string>
+    <string name="extra_facebook_scopes">Example extra Facebook scopes</string>
+    <string name="friends">Friends</string>
+    <string name="photos">Photos</string>
+    <string name="idp_token">IDP Token</string>
+    <string name="idp_secret">IDP Secret</string>
+    <string name="unknown_error">An unknown error occurred</string>
+    <string name="send">Send</string>
+    <string name="download">Download</string>
+    <string name="upload">Upload</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="accessibility_downloaded_image">Downloaded image</string>
+    <string name="allow_new_email_acccount">Allow account creation if email does not exist.</string>
+
+    <!-- strings for database demo activities -->
+    <string name="start_chatting">No messages. Start chatting at the bottom!</string>
+    <string name="signed_in">Signed In</string>
+    <string name="enable_credential_selector">Enable Smart Lock\'s credential selector</string>
+    <string name="enable_hint_selector">Enable Smart Lock\'s hint selector</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

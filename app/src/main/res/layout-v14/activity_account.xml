@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorWhite"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:elevation="4dp"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.BrandedLaunch"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageview_profile"
+        android:src="@drawable/ic_man"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@android:color/black"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"/>
+
+    <TextView
+        android:id="@+id/textview_username"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageview_profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Username: Cheda"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textview_email"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:inputType="textEmailAddress"
+        android:text="Email: cheda@skysevents.com"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textview_gender"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:inputType="textEmailAddress"
+        android:text="Gender: Male"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Switch
+        android:id="@+id/switch_subscription"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Email subscriptions"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/textview_gender"
+        android:enabled="false"
+        />
+
+    <Switch
+        android:id="@+id/switch_allow_email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Allow email from other"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/switch_subscription"
+        android:enabled="false"
+        />
+
+</RelativeLayout>

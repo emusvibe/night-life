@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:baselineAligned="false"
+    android:divider="?android:attr/dividerHorizontal"
+    android:orientation="horizontal"
+    android:showDividers="middle"
+    tools:context="com.cheda.skysevents.FavoritesActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <!--
+      This layout is a two-pane layout for the Items
+      master/detail flow.-->
+
+
+    <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/favorite_list"
+        android:name="com.cheda.skysevents.FavListFragment"
+        android:layout_width="@dimen/item_width"
+        android:layout_height="match_parent"
+        android:layout_marginRight="2dp"
+        tools:context="com.cheda.skysevents.FavoritesActivity"
+        tools:listitem="@layout/event_list_row" />
+
+
+    <FrameLayout
+        android:id="@+id/event_detail_container"
+        android:padding="8dp"
+        android:background="@color/colorWhite"
+        tools:context="com.cheda.skysevents.FavoritesActivity"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3" />
+
+
+</LinearLayout>

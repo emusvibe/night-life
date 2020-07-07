@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorWhite">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:elevation="4dp"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.BrandedLaunch"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageview_profile"
+        android:src="@drawable/ic_man"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@android:color/black"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"/>
+
+
+    <TextView
+        android:id="@+id/textview_username"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageview_profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Username: JohnDoe"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textview_email"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:inputType="textEmailAddress"
+        android:text="Email: john.doe@example.com"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textview_gender"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:inputType="textEmailAddress"
+        android:text="Gender: Male"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <CheckBox
+        android:id="@+id/checkbox_subscription"
+        android:text="Email subscriptions"
+        android:enabled="false"
+        android:layout_marginTop="25dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_gender"
+        android:layout_alignLeft="@+id/checkbox_allow_email"
+        android:layout_alignStart="@+id/checkbox_allow_email" />
+    <CheckBox
+        android:id="@+id/checkbox_allow_email"
+        android:text="Allow Emails from Other "
+        android:layout_marginTop="75dp"
+        android:enabled="false"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_gender"
+        android:layout_alignLeft="@+id/textview_gender"
+        android:layout_alignStart="@+id/textview_gender" />
+
+</RelativeLayout>

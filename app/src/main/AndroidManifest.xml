@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cheda.skysevents">
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.BrandedLaunch">
+         <activity android:name=".MainActivity" />
+        <activity android:name="com.cheda.skysevents.startscreen.LoginReg">
+
+        <!--<activity android:name=".MainActivity">-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DetailActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".FavoritesActivity" />
+        <activity
+            android:name=".ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".AccountEditActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".UserListActivity" />
+        <activity android:name=".AccountActivity" />
+       <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".NearMeActivity"
+            android:label="@string/title_activity_near_me" />
+        <activity
+            android:name=".startscreen.KickoffActivity"
+            android:exported="false"
+            android:label=""
+            android:theme="@style/FirebaseUI.Transparent" />
+        <activity
+            android:name=".startscreen.ui.email.RecoverPasswordActivity"
+            android:exported="false"
+            android:label="@string/title_recover_password_activity" />
+        <activity
+            android:name=".startscreen.ui.email.RegisterEmailActivity"
+            android:exported="false"
+            android:label="@string/sign_in_default" />
+        <activity
+            android:name=".startscreen.ui.phone.PhoneVerificationActivity"
+            android:exported="false"
+            android:label="@string/sign_in_with_phone_number"
+            android:windowSoftInputMode="stateAlwaysVisible" />
+        <activity
+            android:name=".startscreen.ui.accountlink.WelcomeBackIdpPrompt"
+            android:exported="false"
+            android:label="@string/title_welcome_back_idp_prompt" />
+        <activity
+            android:name=".startscreen.ui.accountlink.WelcomeBackPasswordPrompt"
+            android:exported="false"
+            android:label="@string/title_welcome_back_password_prompt" />
+        <activity
+            android:name=".startscreen.ui.idp.AuthMethodPickerActivity"
+            android:exported="false"
+            android:label="@string/default_toolbar_title" />
+
+        <activity android:name=".startscreen.SignedInActivity"
+            android:parentActivityName=".ProfileActivity"/>
+        <!--<activity android:name=".ProfileActivity" />-->
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/FirebaseUI"
+            android:parentActivityName=".ProfileActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cheda.skysevents.ProfileActivity" />
+        </activity>
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <!--<intent-filter android:label="@string/filter_title_viewgizmos">-->
+                <!--<action android:name="android.intent.action.VIEW" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+                <!--<category android:name="android.intent.category.BROWSABLE" />-->
+                <!--&lt;!&ndash; Accepts URIs that begin with "http://www.example.com/gizmos” &ndash;&gt;-->
+                <!--<data android:scheme="http"-->
+                    <!--android:host="www.example.com"-->
+                <!--&lt;!&ndash; note that the leading "/" is required for pathPrefix&ndash;&gt;-->
+                <!--&lt;!&ndash; Accepts URIs that begin with "example://gizmos” &ndash;&gt;-->
+                <!--<data android:scheme="example"-->
+                    <!--android:host="gizmos" />-->
+            <!--</intent-filter>-->
+
+
+    </application>
+
+</manifest>

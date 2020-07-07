@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="detail_backdrop_height">256dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="list_item_avatar_size">40dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="app_bar_height">350dp</dimen>
+    <dimen name="app_bartab_height">850dp</dimen>
+    <dimen name="item_width">280dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="app_pager_up">81dp</dimen>
+    <dimen name="app_pager_dwn">50dp</dimen>
+
+    <dimen name="auth_method_button_width">208dp</dimen>
+    <dimen name="auth_method_button_marginBottom">8dp</dimen>
+    <dimen name="auth_method_button_drawablePadding">12dp</dimen>
+
+    <dimen name="body_padding_bottom">12dp</dimen>
+    <dimen name="heading_padding_bottom">12dp</dimen>
+    <dimen name="wrapper_padding_horiz">16dp</dimen>
+    <dimen name="field_padding_vert">10dp</dimen>
+    <dimen name="submit_button_margin_top">24dp</dimen>
+
+    <dimen name="spacing_micro">4dp</dimen>
+    <dimen name="spacing_normal">8dp</dimen>
+    <dimen name="spacing_double">16dp</dimen>
+    <dimen name="spacing_huge">72dp</dimen>
+
+
+    <dimen name="elevation_header">4dp</dimen>
+    <dimen name="elevation_fab">8dp</dimen>
+
+    <dimen name="size_icon_toolbar">40dp</dimen>
+
+    <integer name="anim_duration_very_long">1500</integer>
+    <integer name="anim_duration_long">1000</integer>
+    <integer name="anim_duration_medium">300</integer>
+
+
+</resources>

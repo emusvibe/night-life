@@ -1,0 +1,95 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    tools:context="com.cheda.skysevents.fragments.FeedBackFragment">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/feedback_form"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:text="We value your Opinion. Please rate us and add your comment below"
+                android:textSize="16sp" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:hapticFeedbackEnabled="true"
+                style="@style/Widget.AppCompat.RatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:text="Please Enter Your Comment:"
+                android:textSize="14sp" />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/comments"
+                android:layout_width="match_parent"
+                android:layout_height="197dp"
+                android:layout_marginBottom="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/comment_feedl">
+
+                <EditText
+                    android:textSize="14sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Enter your Valid Email for us to get back to you:"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/comments_email"
+                android:layout_width="319dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="10dp"
+                android:hint="Email"
+                android:background="@drawable/comment_mail"
+                android:inputType="textEmailAddress"
+                android:textSize="14sp" />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center"
+                android:id="@+id/btn_submit"
+                android:layout_width="170dp"
+                android:layout_height="37dp"
+                android:text="Submit Feedback" />
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
